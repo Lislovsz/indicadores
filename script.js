@@ -12,4 +12,4 @@ setInterval(() => {
     img2.style.display = 'none';
   }
   showingFirst = !showingFirst;
-}, 10000); // 10000ms = 10 segundos
+}, 50000); 
