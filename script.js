@@ -1,6 +1,10 @@
 const images = [
   document.getElementById('image1'),
-  document.getElementById('image2')
+  document.getElementById('image2'),
+  document.getElementById('image3'),
+  document.getElementById('image4'),
+  document.getElementById('image5'),
+  document.getElementById('image6')
 ];
 
 let currentIndex = 0;
