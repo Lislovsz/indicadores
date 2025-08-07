@@ -1,15 +1,18 @@
-const img1 = document.getElementById('image1');
-const img2 = document.getElementById('image2');
+const images = [
+  document.getElementById('image1'),
+  document.getElementById('image2')
+];
 
-let showingFirst = true;
+let currentIndex = 0;
 
 setInterval(() => {
-  if (showingFirst) {
-    img1.style.display = 'none';
-    img2.style.display = 'block';
-  } else {
-    img1.style.display = 'block';
-    img2.style.display = 'none';
-  }
-  showingFirst = !showingFirst;
-}, 50000); 
+
+  images.forEach(img => img.style.display = 'none');
+
+ 
+  images[currentIndex].style.display = 'block';
+
+ 
+  currentIndex = (currentIndex + 1) % images.length;
+}, 30000); 
+

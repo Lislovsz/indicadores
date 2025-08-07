@@ -17,8 +17,12 @@ body {
 .image-container img {
   width: 100%;
   height: auto;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   transition: opacity 1s ease-in-out;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
+
