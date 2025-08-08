@@ -18,4 +18,4 @@ setInterval(() => {
 
   
   currentIndex = (currentIndex + 1) % images.length;
-}, 5000);
+}, 15000);
