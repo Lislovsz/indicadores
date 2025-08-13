@@ -4,7 +4,8 @@ const images = [
   document.getElementById('image3'),
   document.getElementById('image4'),
   document.getElementById('image5'),
-  document.getElementById('image6')
+  document.getElementById('image6'),
+  document.getElementById('image7')
 ];
 
 let currentIndex = 0;
@@ -18,4 +19,4 @@ setInterval(() => {
 
   
   currentIndex = (currentIndex + 1) % images.length;
-}, 15000);
+}, 20000);
