@@ -3,11 +3,6 @@ const images = [
   document.getElementById('image2'),
   document.getElementById('image3'),
   document.getElementById('image4'),
-  document.getElementById('image5'),
-  document.getElementById('image6'),
-  document.getElementById('image7'),
-  document.getElementById('image8'),
-  document.getElementById('image9'),
   document.getElementById('image10')
 ];
 
