@@ -2,8 +2,7 @@ const images = [
   document.getElementById('image1'),
   document.getElementById('image2'),
   document.getElementById('image3'),
-  document.getElementById('image4'),
-  document.getElementById('image10')
+  document.getElementById('image4')
 ];
 
 let currentIndex = 0;
